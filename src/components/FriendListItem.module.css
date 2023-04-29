@@ -1,0 +1,45 @@
+.item {
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid gray;
+  box-shadow: 5px 2px 2px rgba(62, 62, 62, 0.464);
+}
+
+.statusFalse {
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50px;
+}
+
+.statusTrue {
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+  background-color: rgb(4, 134, 0);
+  border-radius: 50px;
+}
+
+.avatar {
+  display: inline-block;
+  margin: 10px;
+  width: 60px;
+  padding: 5px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgb(192, 215, 215);
+  border: 3px solid rgb(149, 168, 168);
+}
+
+.name {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+}
