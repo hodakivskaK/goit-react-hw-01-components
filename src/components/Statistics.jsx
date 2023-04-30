@@ -4,8 +4,12 @@ import StatisticsCss from './Statistics.module.css'
 export const Statistics = ({title, stats }) => {
       
       return (
-      <section className= {StatisticsCss.statistics} >
-            <h2 className={StatisticsCss.title}>{title}</h2>
+            <section className={StatisticsCss.statistics} >
+            {title &&
+                  (<h2 className={StatisticsCss.title}>{title}</h2>)
+           
+            }
+            
             <ul className= {StatisticsCss.statList}>
                         
                   {stats.map(stat => 

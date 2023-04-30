@@ -13,7 +13,7 @@ import transitions from '../transactions'
 export const Section = () => {
   return (
     <section>
-      <ProfileCard {...profileName}
+      <ProfileCard username = {profileName.username} tag= {profileName.tag} location = {profileName.location} avatar = {profileName.avatar} stats = {profileName.stats}
       />
       
       <Statistics title="Upload stats" stats = {dataStatistics}

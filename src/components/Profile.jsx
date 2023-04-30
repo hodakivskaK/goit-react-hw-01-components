@@ -6,8 +6,7 @@ export const ProfileCard = ({
   tag, 
 location ,
 avatar,
-  stats,
-key }) => {
+  stats }) => {
   
   return (
     <div className={ ProfileCss.profile} >
